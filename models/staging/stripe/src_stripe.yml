@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: stripe
+    database: DEMO_DB
+    tables:
+      - name: payment
+        description: Raw payments data
+        loaded_at_field: _BATCHED_AT
